@@ -22,3 +22,66 @@ h1
     margin-top: 0;
     color: grey;
 }
+
+.stars-review
+{
+    font-size: 15px;
+    color: rgb(109, 9, 109);
+}
+
+.reviews
+{
+    position: relative;
+    left:700px;
+    background-color: rgb(240, 235, 235);
+    display: inline-block;
+    padding: 10px;
+    bottom: 180px;
+}
+
+.report-guru
+{
+    position: relative;
+    bottom: 120px;
+    left: 400px;
+    background-color: rgb(240, 235, 235);
+    padding: 10px;
+    display: inline-block;
+}
+
+.best-tech
+{
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+    background-color: rgb(240, 235, 235);
+    padding: 10px;
+    display: inline-block;
+}
+
+.bottom-container
+{
+    background-image: url("images/bg-pattern-bottom-desktop.svg");
+    position: relative;
+}
+
+.smith-box
+{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(109, 9, 109);
+}
+
+.roberts-box
+{
+    position: absolute;
+    display: inline-block;
+    left: 500px;
+}
+
+.wallace-box
+{
+    position: absolute;
+    display: inline-block;
+    left: 1000px;
+}
