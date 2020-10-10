@@ -2,6 +2,7 @@
 body
 {
     font-family: 'B612 Mono', monospace;
+    margin: 50px;
 }
 
 .top-container
@@ -15,6 +16,23 @@ h1
 {
     margin-bottom: 0;
     color: rgb(109, 9, 109);
+}
+
+h3
+{
+   color: white;
+   margin-bottom: 0;
+   text-align: right;
+   margin-right: 135px;
+   padding-top: 20px;
+}
+
+h4
+{
+    margin-top: 0;
+    padding-left: 100px;
+    padding-bottom: 20px ;
+    color: rgb(184, 25, 184);
 }
 
 .subtitle
@@ -37,6 +55,8 @@ h1
     display: inline-block;
     padding: 10px;
     bottom: 180px;
+    border-radius: 10px;
+    
 }
 
 .report-guru
@@ -47,6 +67,7 @@ h1
     background-color: rgb(240, 235, 235);
     padding: 10px;
     display: inline-block;
+    border-radius: 10px;
 }
 
 .best-tech
@@ -57,31 +78,66 @@ h1
     background-color: rgb(240, 235, 235);
     padding: 10px;
     display: inline-block;
+    border-radius: 10px;
 }
 
 .bottom-container
 {
     background-image: url("images/bg-pattern-bottom-desktop.svg");
     position: relative;
+    font-size: 12px;
 }
 
 .smith-box
 {
     position: absolute;
     display: inline-block;
-    background-color: rgb(109, 9, 109);
+    background-color:  rgb(92, 0, 92);
+    border-radius: 10px;
+    margin-left: 50px;
+    top: 15px;
+    margin-bottom: 0;
 }
 
 .roberts-box
 {
     position: absolute;
     display: inline-block;
-    left: 500px;
+    left: 440px;
+    background-color:  rgb(92, 0, 92);
+    border-radius: 10px;
+    top: 30px;
+    margin-bottom: 100px;
 }
 
 .wallace-box
 {
     position: absolute;
     display: inline-block;
-    left: 1000px;
+    left: 825px;
+    background-color: rgb(92, 0, 92);
+    border-radius: 10px;
+    top: 50px;
+    margin-bottom: 200px;
+}
+
+.profile-img
+{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding:20px ;
+    position: absolute;
+}
+
+.customer-review
+{
+    color: white;
+    padding:15px;
+}
+
+.colton-smith
+{
+    margin-right: 150px;
 }
